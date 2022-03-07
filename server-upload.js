@@ -21,4 +21,4 @@ app.post('/upload', upload.array('avatar'), (req, res) => {
     return res.json({ status: 'OK', uploaded: req.files.length });
 });
 
-app.listen(3001);
+app.listen(process.env.PORT || 3001);
