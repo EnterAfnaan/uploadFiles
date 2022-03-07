@@ -1,0 +1,16 @@
+{
+  "name": "uploadfile",
+  "version": "1.0.0",
+  "description": "Dependencies:\r express: framework for backend\r multer: handling upload files\r uuid: providing unique ids to files\r nodemon: restart the server on change",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "multer": "^1.4.4",
+    "uuid": "^8.3.2"
+  }
+}
